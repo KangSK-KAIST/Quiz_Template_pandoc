@@ -344,8 +344,20 @@ $endif$
 
 %% Adding my own
 \usepackage{kotex}
+\usepackage{setspace}
+
 \usepackage{titlesec}
 \titleformat{\section}{\normalfont\scshape}{\thesection}{1em}{}
+
+\newcommand{\blanck}{\line(1,0){120}}
+\newcommand{\compact}{\setstretch{1.0}}
+\newcommand{\broad}{\setstretch{1.5}}
+
+% \begin{tcolorbox}
+% 		\begin{center}
+% 		workout, alter, sneeze, obesity, remedy, doze, outfit
+% 		\end {center}
+% 	\end{tcolorbox}
 
 \begin{document}
 $if(title)$
@@ -360,6 +372,13 @@ $abstract$
 \end{abstract}
 $endif$
 $endif$
+
+%% Adding personal settings
+\textbf{\textsf{\Large English test}} \hspace{1.5cm}
+Date: \blanck \hspace{1.5cm}
+Name: \blanck %you can change the length of the lines by changing the number in the curly brackets
+
+\broad
 
 $for(include-before)$
 $include-before$
