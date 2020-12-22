@@ -1,6 +1,4 @@
 ---
-title: "Quiz Generator Test #1"
-author: "Teacher: KangSeungkwan"
 documentclass: extarticle
 fontsize: 14pt
 geometry:
