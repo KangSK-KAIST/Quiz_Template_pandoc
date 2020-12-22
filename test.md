@@ -8,14 +8,13 @@ geometry:
 	- left=1cm
 subparagraph: yes
 title: no
-
 output:
 	pdf_document:
 		includes:
 			in_header: "quiztemplate.tex"
 ---
 
-# 다음 괄호 안에서 문맥에 적절한 것을 고르시오.
+# \spade 다음 괄호 안에서 문맥에 적절한 것을 고르시오.
 
 1. They understand that bad (nutrition / courtesy) is the cause of most chronic diseases.
 2. I figured it was okay for her to (sip / chop) my wine even if it was not good manners.
@@ -31,5 +30,5 @@ life.
 
 \clearpage
 
-# 다음 빈칸에 들어갈 적절한 말을 아래에서 찾아 쓰시오.
+# \spade 다음 빈칸에 들어갈 적절한 말을 아래에서 찾아 쓰시오.
 
