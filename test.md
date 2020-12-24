@@ -2,8 +2,7 @@
 documentclass: extarticle
 fontsize: 14pt
 geometry:
-	- top=1cm
-	- left=1cm
+	- margin=1cm
 subparagraph: yes
 title: no
 output:
@@ -26,8 +25,6 @@ life.
 #. (Routine / Masculine) examination of the teeth is recommended at least every year.
 #. The magazine featured home-style Southern (cuisine / engagement) such as fried chicken.
 
-\clearpage
-
 # \spade 다음 빈칸에 들어갈 **적절한** 말을 아래에서 찾아 쓰시오.
 
 \graybox{workout, alter, sneeze, obesity, remedy, doze, outfit}
@@ -35,6 +32,8 @@ life.
 - Color has the ability to completely \blank the atmosphere of your home.
 - If you experience any side effects from a natural \blank, stop using it immediately.
 - You have to wear a brand-new \blank that matches or complements your hair style.
+
+\clearpage
 
 # \spade 다음 괄호 안에서 문맥에 **적절한** 것을 고르시오.
 
@@ -63,6 +62,8 @@ about the game.
 	#. scream
 	#. diminish
 	#. escalade
+
+\clearpage
 
 #. As water is an essential *ingredient* for any beer, good quality water is needed in order to create the best beer.
 
