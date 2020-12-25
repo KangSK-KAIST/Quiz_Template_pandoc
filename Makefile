@@ -4,7 +4,7 @@ test.pdf: test.tex
 	pdflatex -interaction nonstopmode -halt-on-error test.tex && \
 	pdflatex -interaction nonstopmode -halt-on-error test.tex
 
-test.tex: test.md
+test.tex: test.md quiztemplate.tex
 	pandoc test.md -o test.tex --template=quiztemplate.tex
 
 clean:
