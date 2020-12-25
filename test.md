@@ -6,9 +6,10 @@ geometry:
 subparagraph: yes
 title: no
 output:
-	pdf_document:
-		includes:
-			in_header: "quiztemplate.tex"
+	pdf_document
+header-includes:
+	- \newif\ifanswer
+	- \answerfalse
 ---
 
 # \spade 다음 괄호 안에서 문맥에 **적절한** 것을 고르시오.
@@ -17,13 +18,16 @@ output:
 #. I figured it was okay for her to (sip / chop) my wine even if it was not good manners.
 #. At the party, John asked Mary whether she wanted to take some (circumstances / refreshments).
 #. Is co-teaching a (seasoning / fad) or the future for teaching students with disabilities?
-#. Choosing a(n) (occupation / beverage) is one of the most important decisions you make in your
-life.
+#. Choosing a(n) (occupation / beverage) is one of the most important decisions you make in your life.
 #. Harsh working conditions were (cosmetic / prevalent) during the Industrial Revolution.
-#. What your (outfit / ingredient) looks like is important in choosing the right accessories.51
+#. What your (outfit / ingredient) looks like is important in choosing the right accessories.
 #. Scientists think that our brains (shrink / alter) two percent per decade.
 #. (Routine / Masculine) examination of the teeth is recommended at least every year.
 #. The magazine featured home-style Southern (cuisine / engagement) such as fried chicken.
+
+\ifanswer
+Answers: nutrition, sip, refreshments, fad, occupation, prevalent, outfit, shrink, Routine, cuisine
+\fi
 
 # \spade 다음 빈칸에 들어갈 **적절한** 말을 아래에서 찾아 쓰시오.
 
